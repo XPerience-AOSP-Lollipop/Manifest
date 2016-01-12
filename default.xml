@@ -42,7 +42,7 @@
   <project path="packages/apps/Eleven" name="XPerience-AOSP-Lollipop/android_packages_apps_Eleven" revision="xpe-9.1" />
   <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" revision="xpe-9.1"/>
   <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" revision="xpe-9.1"/>
-  
+  <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
   <!--Finish xperienced-->
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
