@@ -38,7 +38,7 @@
   <project path="frameworks/av" name="XPerience-AOSP-Lollipop/android_frameworks_av" groups="pdk" revision="xpe-9.1"/>
   <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" revision="xpe-9.1"/>
   <project path="frameworks/webview" name="XPerience-AOSP-Lollipop/android_frameworks_webview" />
-  <project path="packages/apps/XPerienceCenter" name="XPerience-AOSP-Lollipop/android_packages_XPerienceCenter" />
+  <project path="packages/apps/XPerienceCenter" name="XPerience-AOSP-Lollipop/android_packages_XPerienceCenter" revision="xpe-10.0" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
   <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" revision="xpe-9.1"/>
   <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" revision="xpe-9.1"/>
