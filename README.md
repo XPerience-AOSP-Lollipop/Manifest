@@ -111,6 +111,11 @@ now you can use brew
 
      brew install gnu-sed gnupg pngcrush
 
+Now for build you need MAVEN is easy install on linux but on mac YOU need homebrew installed then
+
+     brew install maven
+
+
 Credits to:
 =============
 
