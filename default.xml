@@ -23,7 +23,7 @@
 
 <!--For Propietary files-->
   <remote  name="Unicorn"
-           fetch="https://github.com/RainbowUnicornXPe/" />
+           fetch="https://github.com/RainbowUnicornXPe" />
            
   <remote  name="XPe"
            fetch=".."
