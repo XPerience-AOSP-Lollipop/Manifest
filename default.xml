@@ -21,6 +21,10 @@
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
+<!--For Propietary files-->
+  <remote  name="Unicorn"
+           fetch="https://github.com/RainbowUnicornXPe/" />
+           
   <remote  name="XPe"
            fetch=".."
            review="github.com/XPerience-AOSP-Lollipop"
