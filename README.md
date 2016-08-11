@@ -115,6 +115,9 @@ Now for build you need MAVEN is easy install on linux but on mac YOU need homebr
 
      brew install maven
 
+Needed to execute some GNU binary
+
+     brew install coreutils
 
 Credits to:
 =============
