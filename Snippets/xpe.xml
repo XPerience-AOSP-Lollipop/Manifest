@@ -19,6 +19,7 @@
   <project path="packages/apps/Contacts" name="XPerience-AOSP-Lollipop/android_packages_apps_Contacts" groups="pdk-fs" />
   <project path="packages/apps/ContactsCommon" name="XPerience-AOSP-Lollipop/android_packages_apps_ContactsCommon" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="XPerience-AOSP-Lollipop/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
   <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" remote="xpe" groups="xpe,pdk-fs" />
   <project path="packages/apps/SetupWizard" name="XPerience-AOSP-lollipop/android_packages_apps_SetupWizard" remote="xpe" />
   <project path="packages/apps/CMParts" name="XPerience-AOSP-lollipop/android_packages_apps_CMParts" remote="xpe" />
