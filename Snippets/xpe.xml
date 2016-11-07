@@ -12,6 +12,7 @@
   <!--<project path="device/qcom/sepolicy" name="XPerience-AOSP-Lollipop/android_device_qcom_sepolicy" remote="xpe" />-->
   
   <!--Frameworks -->
+  <project path="frameworks/av" name="XPerience-AOSP-Lollipop/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" remote="xpe" groups="pdk-cw-fs,pdk-fs,xpe" />
   <project path="frameworks/native" name="XPerience-AOSP-Lollipop/android_frameworks_native" groups="pdk" />
 
