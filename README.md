@@ -19,14 +19,14 @@ simplifies using [Git](http://git-scm.com/book) in the context of the Android so
 
 ```bash
 # Make a directory where Repo will be stored and add it to the path
-$ mkdir ~/.bin
-$ PATH=~/.bin:$PATH
+$ mkdir ~/bin
+$ PATH=~/bin:$PATH
 
 # Download Repo itself
-$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
+$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 
 # Make Repo executable
-$ chmod a+x ~/.bin/repo
+$ chmod a+x ~/bin/repo
 ```
 
 ### Initializing Repo ###
@@ -184,6 +184,27 @@ Now for build you need MAVEN is easy install on linux but on mac YOU need homebr
 Needed to execute some GNU binary
 
      brew install coreutils
+
+## Troubleshooting ##
+https://android.googlesource.com/platform/prebuilts/sdk/+/master/tools/README-jack-server.md#Troubleshooting
+
+Below you‘ll find some ways to solve some troubleshooting. If you don’t find a solution, file a bug and attach the file produced by jack-admin dump-report.
+
+## If your computer becomes unresponsive during compilation:
+
+You can improve the situation by reducing the number of jack simultaneous compilations by editing your $HOME/.jack-server/config.properties and changing jack.server.max-service to a lower value and then restarting the server.
+If you experience Jack compilations failing on Out of memory error.:
+
+You can improve the situation by reducing the number of jack simultaneous compilations by editing your $HOME/.jack-server/config.properties and changing jack.server.max-service to a lower value and then restarting the server.
+If this is not enough, you may change the arguments used to start the server jvm and force a greater maximum Java heap size (“-Xmx”):
+
+    Stop the server using jack-admin stop-server, then:
+    If you start the server manually:
+    JACK_SERVER_VM_ARGUMENTS="-Xmx2g -Dfile.encoding=UTF-8 -XX:+TieredCompilation" jack-admin start-server
+    If you use the jack server in the android tree then
+    export ANDROID_JACK_VM_ARGS="-Xmx2g -Dfile.encoding=UTF-8 -XX:+TieredCompilation"
+    and restart your build command.
+
 
 ## Using our assets ##
 
