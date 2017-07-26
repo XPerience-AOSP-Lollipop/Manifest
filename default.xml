@@ -4,15 +4,15 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r72" />
+           revision="refs/tags/android-6.0.1_r74" />
 
   <remote  name="github"
            fetch=".."
-           review="review.cyanogenmod.org" />
+           review="review.LineageOS.org" />
 
   <remote  name="cm"
            fetch=".."
-           review="review.cyanogenmod.org" />
+           review="review.LineageOS.org" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -48,7 +48,7 @@
       <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="cm" revision="refs/heads/xpe-10.0"/>
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" groups="pdk" />
+  <project path="frameworks/av" name="LineageOS/android_frameworks_av" remote="github" groups="pdk" />
   <project path="frameworks/native" name="XPerience-AOSP-Lollipop/android_frameworks_native" groups="pdk" remote="cm" revision="refs/heads/xpe-10.0"/>
   <project path="external/sepolicy" name="XPerience-AOSP-Lollipop/android_external_sepolicy" groups="pdk" remote="cm" revision="xpe-10.0" />
   <project path="packages/apps/DeskClock" name="XPerience-AOSP-Lollipop/android_packages_apps_DeskClock" remote="cm" revision="xpe-10.0" groups="pdk-fs" />
@@ -58,7 +58,7 @@
   <project path="packages/apps/SetupWizard" name="XPerience-AOSP-Lollipop/android_packages_apps_SetupWizard" remote="cm" revision="xpe-10.0" />
   <project path="packages/apps/Snap" name="XPerience-AOSP-Lollipop/android_packages_apps_Snap" remote="cm" revision="xpe-10.0"/>
   <project path="packages/apps/Stk" name="XPerience-AOSP-Lollipop/android_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="cm" revision="xpe-10.0" />
-  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
+  <project path="packages/apps/ThemeChooser" name="LineageOS/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/XPerienceCenter" name="XPerience-AOSP-Lollipop/android_packages_XPerienceCenter" remote="cm" revision="refs/heads/xpe-11.0" />
   <project path="system/core" name="XPerience-AOSP-Lollipop/android_system_core" groups="pdk"  remote="cm" revision="xpe-10.0" />
   <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" remote="cm" revision="refs/heads/xpe-10.0">
@@ -67,22 +67,22 @@
   <project path="vendor/cmsdk" name="XPerience-AOSP-Lollipop/xpe_platform_sdk" remote="cm" revision="xpe-10.0" />
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="ArchiDroid/Toolchain" groups="pdk,linux,arm" remote="github" revision="architoolchain-5.2-arm-linux-gnueabihf" clone-depth="1" />-->
   <!--<project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs"/>-->
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk"  remote="cm" revision="cm-13.0"/>
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
+  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk"  remote="cm" revision="cm-13.0"/>
+  <project path="external/busybox" name="LineageOS/android_external_busybox" />
   <project path="packages/apps/OmniSwitch" name="XPerience-AOSP-Lollipop/android_packages_apps_OmniSwitch" remote="cm" revision="xpe-10.0" />
 
   <!--Finish XPerience Sauce-->
 
-<!-- BEGIN CYANOGENMOD -->
+<!-- BEGIN LineageOS -->
   <include name="snippets/hal_cm_all.xml" />
   <include name="snippets/core_cm_all.xml" />
 <!-- CMSDK SAMPLES -->
-  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
-  <project path="vendor/cmsdk/samples/weatherproviderservice" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
-  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="CyanogenMod/android_packages_apps_YahooWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="LineageOS/android_packages_apps_YahooWeatherProvider" />
 
 <!-- END CMSDK SAMPLES -->
-<!-- END CYANOGENMOD -->
+<!-- END LineageOS -->
 
 <!-- BEGIN AOSP -->
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
