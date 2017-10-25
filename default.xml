@@ -138,7 +138,6 @@
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk" remote="aosp" />
   <project path="external/icu" name="platform/external/icu" groups="pdk" remote="aosp" />
   <project path="external/ImageMagick" name="platform/external/ImageMagick" groups="pdk" remote="aosp" />
-  <project path="external/ims" name="platform/external/ims" groups="pdk" remote="aosp" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" remote="aosp" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk" remote="aosp" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk" remote="aosp" />
@@ -324,7 +323,6 @@
   <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" remote="aosp" />
-  <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" remote="aosp" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
