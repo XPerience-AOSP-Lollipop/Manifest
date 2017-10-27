@@ -15,7 +15,7 @@
            review="gerrit.aospa.co"
            revision="nougat-mr2"/>
 
-  <remote  name="gitlabs"
+  <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
   <remote  name="cyan"
