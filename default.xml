@@ -15,6 +15,9 @@
            review="gerrit.aospa.co"
            revision="nougat-mr2"/>
 
+  <remote  name="gitlabs"
+           fetch="https://gitlab.com/" />
+
   <remote  name="cyan"
            fetch="https://github.com/LineageOS"
            review="review.lineageos.org"
